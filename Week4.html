@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stress Detection </title>
+    <title>Stress Detection</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
                     <a href="#">Project Introduction</a>
                 </li>
                 <li>
-                    <a href="index.html">Weekly Progress</a>
+                    <a href="index.html">Work Progress</a>
                 </li>
                 <li>
                     <a href="#">Something else</a>
@@ -63,40 +63,28 @@
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
-                    <!-- This is left part of the page -->
-                    <div class="col-lg-6" >
-                        <!-- toggle button -->
-                        <div class="col-lg-12">
-                            <div class="top-buffer20"></div>
-                            <a href="#menu-toggle" class="btn btn-default button-hide" id="menu-toggle">
-                                <span class="glyphicon glyphicon-menu-hamburger"></span>
-                            </a>
-                        </div>
-                        <!-- Feeding Button -->
-                        <div class="col-lg-12">
-                            <h1>Weekly Progress</h1>
-                            <button type="button" class="btn btn-primary" onclick="location.href='Week4.html'">Week 4</button>
-                        </div>
-
-                        <!-- Diaper Changing Button -->
-                        <div class="col-lg-12">
-                          <!-- <h1>Add Records</h1> -->
-                          <p></p>
-                          <button type="button" class="btn btn-primary" onclick="location.href='Week5.html'">Week 5</button>
-                        </div>
-
-                        <!-- Other Activity Button -->
-                        <div class="col-lg-12">
-                          <!-- <h1>Add Records</h1> -->
-                          <p></p>
-                          <button type="button" class="btn btn-primary" onclick="location.href='Week6.html'">Week 6</button>
-                        </div>
-
-
-
+                    <!-- toggle button -->
+                    <div class="col-lg-12">
+                        <div class="top-buffer20"></div>
+                        <a href="#menu-toggle" class="btn btn-default button-hide" id="menu-toggle">
+                            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                        </a>
+                    </div>
+                    <div class="col-lg-12" >
+                        <h1>Week 4</h1>
+                        <h2>Met with Dr. Bass and his team</h2>
+                          <p>We met with Dr. Bass and his team at the Chicago campus.</p>
+                          <p>We learned more about the Bio-Stamp sensor and also spoke to Mr. Ha-uk who fabricated the sensor</p>
+                          <p>We also got some of the Java Code which was being used by the team to obtain heart rate values on an Android Phone</p>
+                          <p>We spoke about the various parameters which can be detected by the sensor and also about how it measures those parameters</p>
+                        <h2>Experimentation</h2>
+                          <p>We ran the code on an Android Phone and connected the sensor on to Santhosh.</p>
+                          <p>We saw the heart rate being graphed on the android device, but we noticed that the device was extremely sensitive</p>
+                          <p>Even the slightest movement caused the heart rate values to spike</p>
+                          <p>We tried to go over the code and understand how each function worked</p>
                     </div><!-- End of left part page -->
 
-
+                </div><!--End of Row-->
             </div>
         </div>
         <!-- /#page-content-wrapper -->
@@ -110,6 +98,10 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+
+    <!-- Customized Script -->
+    <script src="js/util.js"></script>
+
     <!-- Menu Toggle Script -->
     <script>
     $("#menu-toggle").click(function(e) {
@@ -117,6 +109,10 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
+
+
+
+
 
 </body>
 

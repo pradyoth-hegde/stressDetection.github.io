@@ -1,0 +1,24 @@
+.top-buffer20 { 
+    margin-top:20px; 
+}
+
+.top-buffer30 { 
+    margin-top:30px; 
+}
+
+.top-buffer5 { 
+    margin-top:5px; 
+}
+
+
+.feed_row{
+	width: 500px;
+	height: 50px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .button-hide {
+        display: none;
+    }
+}
