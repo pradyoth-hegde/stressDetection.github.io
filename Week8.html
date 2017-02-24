@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Stress Detection</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/util.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Stress Detection
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="#">Team Introduction</a>
+                </li>
+                <li>
+                    <a href="#">Project Introduction</a>
+                </li>
+                <li>
+                    <a href="index.html">Work Progress</a>
+                </li>
+
+                <li>
+
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- toggle button -->
+                    <div class="col-lg-12">
+                        <div class="top-buffer20"></div>
+                        <a href="#menu-toggle" class="btn btn-default button-hide" id="menu-toggle">
+                            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                        </a>
+                    </div>
+                    <div class="col-lg-12" >
+                        <h1>Week 8</h1>
+
+                        <h2>Incorporate changes from Mid-term feedback</h2>
+                            <p>We had to update our protocol to add some actvities which would make the subject be non stressed Eg: Eating, Conversation</p>
+                            <p>We also had to research more on which classifier is the best</p>
+
+                        <h2>Bio-stamp fix</h2>
+                            <p>We worked more with the Bio-stamp Java code in order to tune the values obtained</p>
+                            <p>The fluctuations did reduce, but it is still under progress</p>
+                            <p>Ordering of the Band to hold on the Bio-stamp was done</p>    
+
+                          <h2>Data Preprocessing and Feature Selection</h2>
+                            <p>We retrieved some of data logged on to the server and started pre-processing</p>
+                            <p>We decided on some of the features such as mean, standard devaiation, interquartile range etc</p>
+                            <p>Started on implementing a classifier in Weka</p>
+
+                    </div><!-- End of left part page -->
+
+                </div><!--End of Row-->
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- Customized Script -->
+    <script src="js/util.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+
+
+
+
+</body>
+
+</html>
